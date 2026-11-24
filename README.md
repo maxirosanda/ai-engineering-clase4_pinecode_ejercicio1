@@ -5,7 +5,7 @@ python -m venv venv
 source venv/Scripts/activate
 
 # 3. Instalar la librería (una sola vez)
-pip install pinecone
+pip install pinecone python-dotenv
 
 # 5. Correr el script
 python index.py
